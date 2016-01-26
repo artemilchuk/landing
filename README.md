@@ -1,4 +1,4 @@
-# thoughtbot Middleman Starter
+# based on Middleman Starter by Thoughtbot
 
 ## About
 
@@ -39,7 +39,7 @@ starter kits to help you prototype faster.
 
 Set up your project in your code directory
 ```
-git clone https://github.com/thoughtbot/proteus-middleman.git your-project-folder
+git clone https://github.com/mokhniuk/proteus-middleman.git your-project-folder
 cd your-project-folder
 git remote rm origin
 git remote add origin your-git-url
