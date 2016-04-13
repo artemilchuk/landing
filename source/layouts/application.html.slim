@@ -26,12 +26,12 @@ html
     == stylesheet_link_tag :application
     
 
-  body
-    main class="#{page_classes}"
+  body class="#{page_classes}"
+    main.site__content
       == partial '/layouts/shared/header'
       == yield
 
     == partial '/layouts/shared/footer'
 
-    == javascript_include_tag "https://code.jquery.com/jquery-2.2.0.min.js"
-    == javascript_include_tag  "application"
+    == javascript_include_tag "https://code.jquery.com/jquery-1.12.3.min.js"
+    == javascript_include_tag "application"

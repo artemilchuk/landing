@@ -1,4 +1,5 @@
 .DS_Store
+.keep
 /.bundle
 /.cache
 /.sass-cache

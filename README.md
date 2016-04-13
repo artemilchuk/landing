@@ -15,8 +15,8 @@ Pages.
 
 ## Includes
 
-* [HAML](http://haml.info):
-  Simple template markup
+* [SLIM](http://slim-lang.com/):
+  A lightweight templating engine
 * [Coffeescript](http://coffeescript.org):
   Write javascript with simpler syntax
 * [Sass (LibSass)](http://sass-lang.com):
@@ -52,12 +52,12 @@ bundle install
 
 Run the server
 ```
-bundle exec middleman
+middleman
 ```
 
 Deploy to Github Pages
 ```
-bundle exec middleman deploy
+middleman deploy
 ```
 
 Or install the [Proteus gem](https://github.com/thoughtbot/proteus) and enjoy some shortcuts.
