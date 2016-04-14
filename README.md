@@ -75,6 +75,24 @@ If you have problems, please create a
 Have a fix or want to add a feature?
 [Pull Requests](https://github.com/thoughtbot/proteus-middleman/pulls) are welcome!
 
+
+## To do
+
+* [webp](https://github.com/iiska/middleman-webp)
+
+* [thumbnailer](https://github.com/kubenstein/middleman-simple-thumbnailer)
+
+* [create svg sprites](https://github.com/varvet/middleman-scavenger)
+
+* [open graph](https://github.com/ngs/middleman-ogp)
+
+* [google analytics](https://github.com/danielbayerlein/middleman-google-analytics)
+
+* [patterns!](https://github.com/beardedstudio/middleman-patterns)
+
+
+
+
 ## Credits
 
 [![thoughtbot](http://images.thoughtbot.com/bourbon/thoughtbot-logo.svg)](http://thoughtbot.com)
