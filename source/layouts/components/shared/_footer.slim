@@ -3,5 +3,5 @@ footer.site_footer
     p
       small
         | ©&nbsp;
-        => link_to 'Oleg Mokhniuk', '//oleg.codes', :target => "_blank", :title => "Oleg Mokhniuk" 
+        => link_to data.siteinfo.author.name, data.siteinfo.author.url, :target => "_blank", :title => data.siteinfo.author.name
         = copyright_year_range(2016)

@@ -1,5 +1,5 @@
 nav.site_nav
-  =unless data.siteinfo.menu.empty?
+  =if data.siteinfo.menu?
     ul.menu_links
       - data.siteinfo.menu.each do |menuItem|
         li.menu_item

@@ -1,0 +1,24 @@
+/ 
+/ PARTNERS SCREEN
+/ 
+
+
+
+section.section.partners_section#partners
+  .container
+    - if data.siteinfo.partners.title?
+      h6.section_title
+        | #{data.siteinfo.partners.title}
+
+    -if data.siteinfo.partners.partnersList?
+      ul.partners_list
+        - data.siteinfo.partners.partnersList.each do |partner|
+          li.partner
+            a href="#{partner.url}" title="#{partner.title}" target="_blank"
+              - if partner.img? & partner.caption?
+                figure.partner_img
+                  img src="/assets/images/partners/#{partner.img}" alt="#{partner.title}"/
+                  figcaption
+                    | #{partner.caption}
+              - else
+                | #{partner.title}

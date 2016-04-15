@@ -1,0 +1,24 @@
+// 
+// PARTNERS SECTION
+// 
+
+
+
+.partners_section {}
+
+.partners_list {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	@include row;
+}
+
+.partner {
+	@include span-columns(1 of 5)
+}
+
+.partner_img {
+	display: block;
+	width: 100%;
+}

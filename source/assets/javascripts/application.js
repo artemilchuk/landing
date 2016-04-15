@@ -10,7 +10,7 @@
 // ready
 
 ready = function() {
-  // smoothScrolling();
+  smoothScrolling();
   // linksHover();
   // hideBrokenImgs();
 };

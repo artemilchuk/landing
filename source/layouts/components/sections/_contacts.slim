@@ -1,0 +1,19 @@
+/ 
+/ CONTACTS SCREEN
+/ 
+
+
+
+section.section.contacts_section#contacts
+  .container
+    - if data.siteinfo.contacts.title?
+      h6.section_title
+        | #{data.siteinfo.contacts.title}
+
+    -if data.siteinfo.contacts.contactsList?
+      ul.contacts_list
+        - data.siteinfo.contacts.contactsList.each do |contact|
+          li.contact
+            | #{contact.contactK}: #{contact.contactV}
+    -else
+      | No contact information provided

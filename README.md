@@ -69,9 +69,11 @@ Have a fix or want to add a feature?
 
 ## To do
 
-* [webp](https://github.com/iiska/middleman-webp)
+* [favicons](https://github.com/follmann/middleman-favicon-maker)
 * [thumbnailer](https://github.com/kubenstein/middleman-simple-thumbnailer)
+* [webp](https://github.com/iiska/middleman-webp)
 * [create svg sprites](https://github.com/varvet/middleman-scavenger)
 * [open graph](https://github.com/ngs/middleman-ogp)
+* [meta-tags](https://github.com/tiste/middleman-meta-tags)
 * [google analytics](https://github.com/danielbayerlein/middleman-google-analytics)
 * [patterns!](https://github.com/beardedstudio/middleman-patterns)

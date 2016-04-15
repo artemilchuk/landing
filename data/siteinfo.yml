@@ -1,13 +1,48 @@
 title: Lunapark
 
+author:
+  name: Oleg Mokhniuk
+  url: '//oleg.codes'
+
+
+
 menu:
   - title: Welcome
     url: '/#welcome'
+
   - title: About
     url: '/#about'
+
   - title: Features
     url: '/#features'
+
   - title: Partners
     url: '/#partners'
+    
   - title: Contacts
-    url: '/#contact'
+    url: '/#contacts'
+
+
+
+partners:
+  title: Partners
+  
+  partnersList:
+    - title: 'Oleg Mokhniuk'
+      img: 'oleg.png'
+      url: '//oleg.codes'
+      caption: 'oleg.codes'
+
+    - title: 'Perfectionist Media'
+      img: 'perfectionist.png'
+      url: '//perfectionist.media'
+      caption: 'perfectionist.media'
+
+
+
+contacts:
+  title: Contact
+
+  contactsList:
+    - contactK: email
+      contactV: 'olegmokhniuk@gmail.com'
