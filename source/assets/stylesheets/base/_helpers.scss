@@ -1,0 +1,31 @@
+// 
+// HELPER CLASSES
+// 
+// Helper classes should have prefix 'h-'
+
+
+
+// Hide any element
+
+.h-hidden,
+[hidden] {
+	display: none !important;
+}
+
+
+
+// Make element unclickable
+
+.h-noclick,
+[noclick] {
+	pointer-events: none;
+}
+
+
+
+// Make element unselectable
+
+.h-noselect,
+[noselect] {
+	user-select: none;
+}

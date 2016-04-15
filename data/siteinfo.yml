@@ -1,0 +1,13 @@
+title: Lunapark
+
+menu:
+  - title: Welcome
+    url: '/#welcome'
+  - title: About
+    url: '/#about'
+  - title: Features
+    url: '/#features'
+  - title: Partners
+    url: '/#partners'
+  - title: Contacts
+    url: '/#contact'

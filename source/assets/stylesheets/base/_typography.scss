@@ -30,6 +30,17 @@ a {
   &:focus,
   &:hover {
     color: shade($action-color, 25%);
+    border-bottom-color: $action-color;
+  }
+
+  p > & {
+    border-bottom: 1px solid tint($action-color, 60%);
+
+    &:active,
+    &:focus,
+    &:hover {
+      border-bottom-color: $action-color;
+    }
   }
 }
 
@@ -40,6 +51,7 @@ hr {
   border-top: 0;
   margin: $base-spacing 0;
 }
+
 
 img,
 picture {

@@ -1,0 +1,18 @@
+// 
+// FONTS
+// 
+// Fonts can be included from Google Fonts or using @font-face.
+// After adding fonts here, go to _variables.scss or _typography.scss and update font families.
+
+
+
+// Let's use Noto Family from Google Fonts for example
+
+
+// Noto Sans
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=latin,cyrillic);
+
+// Noto Serif
+
+@import url(https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700,700italic&subset=latin,cyrillic);

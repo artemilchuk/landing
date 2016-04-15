@@ -1,0 +1,19 @@
+// 
+// SITE HEADER
+// 
+// 
+
+
+
+$header-bg: $light-gray;
+
+
+
+.site_header {
+	display: block;
+	position: relative;
+	margin: 0;
+	padding: $half-spacing 0;
+
+	background-color: $header-bg;
+}

@@ -1,0 +1,48 @@
+// 
+// BASE LAYOUT STYLES
+// 
+// Including styles that helps to define main content areas.
+
+
+html, body {}
+
+body {}
+
+
+
+// Main site content block. 
+
+main {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+// Sections
+
+.section {
+	position: relative;
+	margin: 0;
+	padding: $inner-spacing 0;
+	width: 100%;
+	display: block;
+
+	&:nth-of-type(even) {
+		background-color: $light-gray
+	}
+}
+
+
+
+// Container
+
+.container {
+	@include outer-container;
+	position: relative;
+	margin: 0 auto;
+	height: 100%;
+	padding-left: 20px;
+	padding-right: 20px;
+}
