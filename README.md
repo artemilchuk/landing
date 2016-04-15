@@ -32,7 +32,7 @@ Lunapark is Starter kit for Middleman — a static site generator built in Ruby.
 
 Set up your project in your code directory
 ```
-git clone https://github.com/mokhniuk/proteus-middleman.git your-project-folder
+git clone https://github.com/mokhniuk/lunapark.git your-project-folder
 cd your-project-folder
 git remote rm origin
 git remote add origin your-git-url
@@ -60,23 +60,18 @@ Helpers files go in the '/helpers/' directory.
 ## Contributing
 
 If you have problems, please create a
-[GitHub Issue](https://github.com/mokhniuk/proteus-middleman/issues).
+[GitHub Issue](https://github.com/mokhniuk/lunapark/issues).
 
 Have a fix or want to add a feature?
-[Pull Requests](https://github.com/mokhniuk/proteus-middleman/pulls) are welcome!
+[Pull Requests](https://github.com/mokhniuk/lunapark/pulls) are welcome!
 
 
 
 ## To do
 
 * [webp](https://github.com/iiska/middleman-webp)
-
 * [thumbnailer](https://github.com/kubenstein/middleman-simple-thumbnailer)
-
 * [create svg sprites](https://github.com/varvet/middleman-scavenger)
-
 * [open graph](https://github.com/ngs/middleman-ogp)
-
 * [google analytics](https://github.com/danielbayerlein/middleman-google-analytics)
-
 * [patterns!](https://github.com/beardedstudio/middleman-patterns)
