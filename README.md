@@ -1,17 +1,9 @@
-# based on Middleman Starter by Thoughtbot
+# Lunapark
 
 ## About
 
-This starter kit for Middleman follows the
-[thoughtbot styleguide](https://github.com/thoughtbot/guides) and includes our
-favorite front end tools.
+Lunapark is Starter kit for Middleman — a static site generator built in Ruby. Lunapark based on [Proteus Middleman](https://github.com/thoughtbot/proteus-middleman) by [thoughtbot](http://thoughtbot.com).
 
-## About Middleman
-
-Middleman is a static site generator built in Ruby. This makes it a great fit
-for projects that may end up as a Ruby on Rails app. Its minimalistic structure
-makes it very easy to work with, and includes support for deploying to Github
-Pages.
 
 ## Includes
 
@@ -31,9 +23,10 @@ Pages.
   Reloads the page when files change
 * [Middleman Deploy](https://github.com/karlfreeman/middleman-deploy):
   Deploy your Middleman build via rsync, ftp, sftp, or git (deploys to Github Pages by default)
+* [Font Awesome](https://github.com/cristianferrarig/font-awesome-middleman):
+  the Font-Awesome web fonts and stylesheets as a Middleman engine
+* [Autoprefixer](https://github.com/middleman/middleman-autoprefixer): Automatically vendor-prefix stylesheets served by Middleman
 
-We also recommend [Refills](http://refills.bourbon.io/) for prepackaged interface patterns and [Proteus](http://github.com/thoughtbot/proteus) for a collection of useful
-starter kits to help you prototype faster.
 
 ## Getting Started
 
@@ -55,25 +48,23 @@ Run the server
 middleman
 ```
 
-Deploy to Github Pages
-```
-middleman deploy
-```
-
-Or install the [Proteus gem](https://github.com/thoughtbot/proteus) and enjoy some shortcuts.
 
 ## Directories
 
 Stylesheets, fonts, images, and JavaScript files go in the `/source/assets/` directory.
 Vendor stylesheets and JavaScripts should go in each of their `/vendor/` directories.
+Data files go in the '/data/' directory.
+Helpers files go in the '/helpers/' directory.
+
 
 ## Contributing
 
 If you have problems, please create a
-[GitHub Issue](https://github.com/thoughtbot/proteus-middleman/issues).
+[GitHub Issue](https://github.com/mokhniuk/proteus-middleman/issues).
 
 Have a fix or want to add a feature?
-[Pull Requests](https://github.com/thoughtbot/proteus-middleman/pulls) are welcome!
+[Pull Requests](https://github.com/mokhniuk/proteus-middleman/pulls) are welcome!
+
 
 
 ## To do
@@ -89,16 +80,3 @@ Have a fix or want to add a feature?
 * [google analytics](https://github.com/danielbayerlein/middleman-google-analytics)
 
 * [patterns!](https://github.com/beardedstudio/middleman-patterns)
-
-
-
-
-## Credits
-
-[![thoughtbot](http://images.thoughtbot.com/bourbon/thoughtbot-logo.svg)](http://thoughtbot.com)
-
-thoughtbot Middleman Starter is maintained and funded by [thoughtbot, inc](http://thoughtbot.com). Thank you to all of [the contributors](https://github.com/thoughtbot/proteus-middleman/contributors)!
-
-## License
-
-Copyright © 2014–2015 [thoughtbot, inc](http://thoughtbot.com). thoughtbot Middleman Starter is free software, and may be redistributed under the terms specified in the [license](https://github.com/thoughtbot/bourbon/blob/master/LICENSE.md).
