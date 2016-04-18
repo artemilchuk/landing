@@ -1,0 +1,143 @@
+- @title = 'Ed-Era Books'
+
+%section.heading
+	.container
+		%h1
+			%span.exo EdEra
+			Books
+			%small Сервіс інтерактивної освітньої літератури
+		%article.about.hyphenate
+			%p.lead
+				%b 
+				%strong EdEra Books
+				— соціальний проект інтерактивної освітньої літератури. Розробляється командою молодих науковців, програмістів, дизайнерів та&nbsp;експертів. Онлайн-книги на&nbsp;EdEra складаються з&nbsp;ілюстрованих текстів з&nbsp;інтегрованими відео та&nbsp;тестами для перевірки здобутих знань. Дозволяють поєднати різні методи сприйняття інформації і&nbsp;підвищити ефективність навчання. І&nbsp;головне&nbsp;— безкоштовний доступ онлайн 24/7.
+		
+
+%section.project_features
+	.container
+		%article
+			%ul.features_list
+				%li
+					Якісний систематизований виклад
+				%li
+					Інтегровані відео та візуалізації
+				%li
+					Вбудовані тести та тренажери
+				%li
+					Адаптація до будь-якого пристрою
+				%li
+					Регуляція розміру кегля та «Нічний режим»
+				%li
+					Цілодобовий та повний онлайн-доступ
+				%li
+					%b Безкоштовно
+		%figure.video_block
+			.modal
+				%label{:for => "modal-1"}
+					.modal-trigger
+						.video
+							%iframe{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "//www.youtube.com/embed/QB8RWTsWHEo?rel=0&showinfo=0", :width => "560"}
+
+%section.ahtung
+	.container
+		%p.title 
+			Допоможіть у створенні дійсно якісного українського освітнього продукту!
+		%a.button{:href => ""} Підтримайте EdEra на Cпільнокошті
+
+%section.bookshelf
+	.container
+		.book.about
+			%a{:href => "/ukrainian"}
+				%figure
+					%img{:src => "/assets/images/books/ukr.jpg", :alt => ""}
+					%figcaption
+						%h3
+							Українська мова
+							%small
+								Від фонетики до морфології
+		.book.about
+			%a{:href => "/history"}
+				%figure
+					%img{:src => "/assets/images/books/hist.jpg", :alt => ""}
+					%figcaption
+						%h3
+							Історія України
+							%small
+								Зародження української нації
+		.book.about
+			%a{:href => "/english"}
+				%figure
+					%img{:src => "/assets/images/books/eng.jpg", :alt => ""}
+					%figcaption
+						%h3
+							Англійська мова
+							%small
+								Морфологія
+		.book.about
+			%a{:href => "/maths"}
+				%figure
+					%img{:src => "/assets/images/books/math.jpg", :alt => ""}
+					%figcaption
+						%h3
+							Математика
+							%small
+								Арифметика, рівняння та нерівності
+		.book.about
+			%a{:href => "/physics"}
+				%figure
+					%img{:src => "/assets/images/books/phys.jpg", :alt => ""}
+					%figcaption
+						%h3
+							Фізика
+							%small
+								Класична механіка
+		.book.about
+			%a{:href => "/geography"}
+				%figure
+					%img{:src => "/assets/images/books/geo.jpg", :alt => ""}
+					%figcaption
+						%h3
+							Географія
+							%small
+								Загальна географія
+		.book.about
+			%a{:href => "/biology"}
+				%figure
+					%img{:src => "/assets/images/books/biol.jpg", :alt => ""}
+					%figcaption
+						%h3
+							Біологія
+							%small
+								Рослини, гриби та лишайники
+
+%section.support_us
+	.container
+		%p.lead
+			Допоможіть людям дізнатися про проект, розповсюджуючи інформацію у&nbsp;мережах, та&nbsp;слідкуйте за&nbsp;нашими новинами: 
+		
+		.likely.likely-big
+			.twitter{"data-via" => "info_edera"} Твітнути
+			.facebook Шернути
+			.gplus Плюсанути
+			.vkontakte Поділитись
+			.odnoklassniki Класнути
+			
+%section.subscription
+	#mc_embed_signup
+		%form#mc-embedded-subscribe-form.validate{:action => "//ed-era.us11.list-manage.com/subscribe/post?u=f0d231561f25f732145baed3d&id=ba0b4591d2", :method => "post", :name => "mc-embedded-subscribe-form", :novalidate => "", :target => "_blank"}
+			#mc_embed_signup_scroll
+				.mc-field-group
+					%label{:for => "mce-EMAIL"}
+						%input#mce-EMAIL.required.email{:name => "EMAIL", :type => "email", :value => ""}/
+						%button#mc-embedded-subscribe.button{:name => "subscribe", :type => "submit"}
+							Слідкувати за новинами
+					
+		#mce-responses.row
+			#mce-error-response.response{:style => "display:none"}
+			#mce-success-response.response{:style => "display:none"}
+		/ real people should not fill this in and expect good things - do not remove this or risk form bot signups
+		%div{:style => "position: absolute; left: -5000px;"}
+			%input{:name => "b_f0d231561f25f732145baed3d_ba0b4591d2", :tabindex => "-1", :type => "text", :value => ""}/	
+		%script{:src => "//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js", :type => "text/javascript"}
+		:javascript
+			(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);

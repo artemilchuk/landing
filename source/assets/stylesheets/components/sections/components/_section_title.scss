@@ -1,0 +1,19 @@
+.section_title {
+	text-align: center;
+  margin: 50px auto;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+
+  &--xl {
+  	font-size: 50px;
+  	text-transform: none;
+  	letter-spacing: 0.02em;
+  	margin-bottom: 20px;
+  }
+}
+
+.section_subtitle {
+	text-align: center;
+	margin: 20px auto;
+}

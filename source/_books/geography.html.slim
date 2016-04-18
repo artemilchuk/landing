@@ -1,0 +1,409 @@
+=partial '/layouts/includes/gtm'
+
+.library.section.heading
+   .container
+      h1 EdEra Books
+      small Сервіс інтерактивної освітньої літератури
+
+section.about_book
+   .container
+      .book__figure
+         img(alt='', src='/img/books/geo.jpg')
+      .book__caption
+         article
+            h2
+               | Географія: Загальна географія
+            p
+               | У цьому інтерактивному підручнику ми будемо вивчати «Загальну географію» та відкривати для себе базові, але ж неймовірно корисні географічні знання. Навчайтесь із задоволенням!
+         .b-info
+            .thead
+               .td Сторінок
+               .td Візуалізацій
+               .td Запитань
+               .td Наповнення
+            .tbody
+               .td 120
+               .td 70
+               .td 80
+               .td 85%
+         .actions
+            a.button.button--big(href='http://geography.ed-era.com/', target='_blank')
+               | Читати
+               sup ❐
+            a.button.foundation.button--big(href='https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTM2NDk5NDYxNTAxIiwiYW1vdW50IjoiMTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCf0ZbQtNGC0YDQuNC80LDRgtC4IEVkRXJhIiwidHlwZSI6ImRvbmF0ZSIsImxhbmd1YWdlIjoicnUifQ%3D%3D&signature=9vDI2d8crD3Mf%2Bkwq9OB4SYTaa0%3D', target='_blank')
+               | Підтримати
+
+
+include ../includes/book_like.slim
+
+section.book-summary
+   .container
+      ul.summary
+         li.chapter.active(data-level='0', data-path='index.html'
+            h2
+               | Зміст
+         li.chapter(data-level='1', data-path='vstup.html'
+            a(href='http://geography.ed-era.com/vstup.html'
+               i.fa.fa-check
+               b 1.
+               | Вступне слово
+         li.chapter(data-level='2', data-path='1/geografichne_piznannya_zemli.html'
+            a(href='http://geography.ed-era.com/1/geografichne_piznannya_zemli.html'
+               i.fa.fa-check
+               b 2.
+               | Географiчне пiзнання Землi
+            ul.articles
+               li.chapter(data-level='2.1', data-path='1/ctarodavnya_epoha_pznannya_zeml.html'
+                  a(href='http://geography.ed-era.com/1/ctarodavnya_epoha_pznannya_zeml.html'
+                     i.fa.fa-check
+                     b 2.1.
+                     | Cтародавня епоха пізнання Землі
+               li.chapter(data-level='2.2', data-path='1/pznannya_zeml_u_seredn_vki.html'
+                  a(href='http://geography.ed-era.com/1/pznannya_zeml_u_seredn_vki.html'
+                     i.fa.fa-check
+                     b 2.2.
+                     | Пізнання землі у середні віки
+               li.chapter(data-level='2.3', data-path='1/epoha_velikih_geografchnih_vdkrittv.html'
+                  a(href='http://geography.ed-era.com/1/epoha_velikih_geografchnih_vdkrittv.html'
+                     i.fa.fa-check
+                     b 2.3.
+                     | Епоха Великих географічних відкриттів
+               li.chapter(data-level='2.4', data-path='1/novichas.html'
+                  a(href='http://geography.ed-era.com/1/novichas.html'
+                     i.fa.fa-check
+                     b 2.4.
+                     | Географiя нового часу
+               li.chapter(data-level='2.5', data-path='1/osvoe.html'
+                  a(href='http://geography.ed-era.com/1/osvoe.html'
+                     i.fa.fa-check
+                     b 2.5.
+                     | Освоєння полярних широт
+               li.chapter(data-level='2.6', data-path='1/international.html'
+                  a(href='http://geography.ed-era.com/1/international.html'
+                     i.fa.fa-check
+                     b 2.6.
+                     | Мiжнароднi дослiдження земної кулi
+               li.chapter(data-level='2.7', data-path='1/Ukr.html'
+                  a(href='http://geography.ed-era.com/1/Ukr.html'
+                     i.fa.fa-check
+                     b 2.7.
+                     | Географiчнi дослiдження на територiї України
+         li.chapter(data-level='3', data-path='2/zemlya_na_plani_ta_karti.html'
+            a(href='http://geography.ed-era.com/2/zemlya_na_plani_ta_karti.html'
+               i.fa.fa-check
+               b 3.
+               | Земля на планi та картi
+            ul.articles
+               li.chapter(data-level='3.1', data-path='2/zobrazhennya_nervnostei_zemno_poverhn_na_plan_ta_kart.html'
+                  a(href='http://geography.ed-era.com/2/zobrazhennya_nervnostei_zemno_poverhn_na_plan_ta_kart.html'
+                     i.fa.fa-check
+                     b 3.1.
+                     | Зображення нерівностей земної поверхні на плані та карті
+               li.chapter(data-level='3.2', data-path='2/gradusna_stka_zeml_geografchn_koordinati_tochok.html'
+                  a(href='http://geography.ed-era.com/2/gradusna_stka_zeml_geografchn_koordinati_tochok.html'
+                     i.fa.fa-check
+                     b 3.2.
+                     | Градусна сітка Землі. Географічні координати точок
+               li.chapter(data-level='3.3', data-path='2/topografchna_karta.html'
+                  a(href='http://geography.ed-era.com/2/topografchna_karta.html'
+                     i.fa.fa-check
+                     b 3.3.
+                     | Топографічна карта
+               li.chapter(data-level='3.4', data-path='dodatok_1.html'
+                  a(href='http://geography.ed-era.com/dodatok_1.html'
+                     i.fa.fa-check
+                     b 3.4.
+                     | Додаток 1. Умовні позначення.
+         li.chapter(data-level='4', data-path='2/nauka_geografiya.html'
+            a(href='http://geography.ed-era.com/2/nauka_geografiya.html'
+               i.fa.fa-check
+               b 4.
+               | Наука географiя
+            ul.articles
+               li.chapter(data-level='4.1', data-path='2/geologichnii_chas.html'
+                  a(href='http://geography.ed-era.com/2/geologichnii_chas.html'
+                     i.fa.fa-check
+                     b 4.1.
+                     | Геологiчний час
+               li.chapter(data-level='4.2', data-path='2/ruh_zemli_u_kosmosi.html'
+                  a(href='http://geography.ed-era.com/2/ruh_zemli_u_kosmosi.html'
+                     i.fa.fa-check
+                     b 4.2.
+                     | Рух Землi у космосi
+               li.chapter(data-level='4.3', data-path='2/chasovi_poyasi.html'
+                  a(href='http://geography.ed-era.com/2/chasovi_poyasi.html'
+                     i.fa.fa-check
+                     b 4.3.
+                     | Часовi пояси
+         li.chapter(data-level='5', data-path='3/vnutrishnya_budova_zemli.html'
+            a(href='http://geography.ed-era.com/3/vnutrishnya_budova_zemli.html'
+               i.fa.fa-check
+               b 5.
+               | Лiтосфера
+            ul.articles
+               li.chapter(data-level='5.1', data-path='3/girski_porodi_ta_minerali.html'
+                  a(href='http://geography.ed-era.com/3/girski_porodi_ta_minerali.html'
+                     i.fa.fa-check
+                     b 5.1.
+                     | Гiрськi породи та мiнерали
+               li.chapter(data-level='5.2', data-path='3/rozmiri_zemli.html'
+                  a(href='http://geography.ed-era.com/3/rozmiri_zemli.html'
+                     i.fa.fa-check
+                     b 5.2.
+                     | Розмiри Землi
+               li.chapter(data-level='5.3', data-path='3/utvorennya_materikiv_ta_okeaniv.html'
+                  a(href='http://geography.ed-era.com/3/utvorennya_materikiv_ta_okeaniv.html'
+                     i.fa.fa-check
+                     b 5.3.
+                     | Утворення материкiв та океанiв
+               li.chapter(data-level='5.4', data-path='3/litosfera_ta_litosferni_pliti.html'
+                  a(href='http://geography.ed-era.com/3/litosfera_ta_litosferni_pliti.html'
+                     i.fa.fa-check
+                     b 5.4.
+                     | Лiтосфера та лiтосфернi плити
+               li.chapter(data-level='5.5', data-path='3/ruhy_zemnoi_kory.html'
+                  a(href='http://geography.ed-era.com/3/ruhy_zemnoi_kory.html'
+                     i.fa.fa-check
+                     b 5.5.
+                     | Рухи земної кори
+               li.chapter(data-level='5.6', data-path='3/vpliv_vnutrishnih_sil_zemli.html'
+                  a(href='http://geography.ed-era.com/3/vpliv_vnutrishnih_sil_zemli.html'
+                     i.fa.fa-check
+                     b 5.6.
+                     | Вплив внутрiшнiх сил Землi
+               li.chapter(data-level='5.7', data-path='3/vpliv_zovnishnih_sil_zemli.html'
+                  a(href='http://geography.ed-era.com/3/vpliv_zovnishnih_sil_zemli.html'
+                     i.fa.fa-check
+                     b 5.7.
+                     | Вплив зовнiшнiх сил Землi
+               li.chapter(data-level='5.8', data-path='3/osnovni_formi_relfu_zemli.html'
+                  a(href='http://geography.ed-era.com/3/osnovni_formi_relfu_zemli.html'
+                     i.fa.fa-check
+                     b 5.8.
+                     | Основнi форми рельєфу Землi
+               li.chapter(data-level='5.9', data-path='3/relf_dna_svitovogo_okeanu.html'
+                  a(href='http://geography.ed-era.com/3/relf_dna_svitovogo_okeanu.html'
+                     i.fa.fa-check
+                     b 5.9.
+                     | Рельєф дна Свiтового океану
+               li.chapter(data-level='5.10', data-path='3/dodatok_osnovni_gori_svitu.html'
+                  a(href='http://geography.ed-era.com/3/dodatok_osnovni_gori_svitu.html'
+                     i.fa.fa-check
+                     b 5.10.
+                     | Додаток 1. Основнi гори свiту
+         li.chapter(data-level='6', data-path='3/gidrosfera.html'
+            a(href='http://geography.ed-era.com/3/gidrosfera.html'
+               i.fa.fa-check
+               b 6.
+               | Гiдросфера
+            ul.articles
+               li.chapter(data-level='6.1', data-path='3/svitovii_koloobig_vodi.html'
+                  a(href='http://geography.ed-era.com/3/svitovii_koloobig_vodi.html'
+                     i.fa.fa-check
+                     b 6.1.
+                     | Свiтовий колообiг води
+               li.chapter(data-level='6.2', data-path='3/svitovii_okean_ta_iogo_chastini.html'
+                  a(href='http://geography.ed-era.com/3/svitovii_okean_ta_iogo_chastini.html'
+                     i.fa.fa-check
+                     b 6.2.
+                     | Свiтовий океан та його частини
+               li.chapter(data-level='6.3', data-path='3/chastini_suhodolu.html'
+                  a(href='http://geography.ed-era.com/3/chastini_suhodolu.html'
+                     i.fa.fa-check
+                     b 6.3.
+                     | Частини суходолу
+               li.chapter(data-level='6.4', data-path='3/vodni_masi.html'
+                  a(href='http://geography.ed-era.com/3/vodni_masi.html'
+                     i.fa.fa-check
+                     b 6.4.
+                     | Воднi маси
+                  ul.articles
+                     li.chapter(data-level='6.4.1', data-path='3/dodatok_1_naibilshi_glibina_okeaniv.html'
+                        a(href='http://geography.ed-era.com/3/dodatok_1_naibilshi_glibina_okeaniv.html'
+                           i.fa.fa-check
+                           b 6.4.1.
+                           | Додаток 1. Найбiльшi глибини океанiв
+               li.chapter(data-level='6.5', data-path='3/ruh_vodi_v_okeani.html'
+                  a(href='http://geography.ed-era.com/3/ruh_vodi_v_okeani.html'
+                     i.fa.fa-check
+                     b 6.5.
+                     | Рух води в океанi
+               li.chapter(data-level='6.6', data-path='3/vodi_suhodolu.html'
+                  a(href='http://geography.ed-era.com/3/vodi_suhodolu.html'
+                     i.fa.fa-check
+                     b 6.6.
+                     | Води суходолу
+                  ul.articles
+                     li.chapter(data-level='6.6.1', data-path='3/dodatok_2_richki.html'
+                        a(href='http://geography.ed-era.com/3/dodatok_2_richki.html'
+                           i.fa.fa-check
+                           b 6.6.1.
+                           | Додаток 2. Рiчки
+               li.chapter(data-level='6.7', data-path='3/ozera.html'
+                  a(href='http://geography.ed-era.com/3/ozera.html'
+                     i.fa.fa-check
+                     b 6.7.
+                     | Озера
+                  ul.articles
+                     li.chapter(data-level='6.7.1', data-path='3/dodatok_3_ozera.html'
+                        a(href='http://geography.ed-era.com/3/dodatok_3_ozera.html'
+                           i.fa.fa-check
+                           b 6.7.1.
+                           | Додаток 3. Озера
+               li.chapter(data-level='6.8', data-path='3/bolota_ta_shtuchni_vodoimi.html'
+                  a(href='http://geography.ed-era.com/3/bolota_ta_shtuchni_vodoimi.html'
+                     i.fa.fa-check
+                     b 6.8.
+                     | Болота та штучнi водойми
+               li.chapter(data-level='6.9', data-path='3/lodoviki_ta_bagatorichna_merzlota.html'
+                  a(href='http://geography.ed-era.com/3/lodoviki_ta_bagatorichna_merzlota.html'
+                     i.fa.fa-check
+                     b 6.9.
+                     | Льодовики та багаторiчна мерзлота
+               li.chapter(data-level='6.10', data-path='3/pidzemni_vodi.html'
+                  a(href='http://geography.ed-era.com/3/pidzemni_vodi.html'
+                     i.fa.fa-check
+                     b 6.10.
+                     | Пiдземнi води
+         li.chapter(data-level='7', data-path='4/atmosfera.html'
+            a(href='http://geography.ed-era.com/4/atmosfera.html'
+               i.fa.fa-check
+               b 7.
+               | Атмосфера
+            ul.articles
+               li.chapter(data-level='7.1', data-path='4/teplovi_poyasy_zemli.html'
+                  a(href='http://geography.ed-era.com/4/teplovi_poyasy_zemli.html'
+                     i.fa.fa-check
+                     b 7.1.
+                     | Тепловi пояси Землi
+               li.chapter(data-level='7.2', data-path='4/poyasy_atmosfernogo_tysku_na_zemli.html'
+                  a(href='http://geography.ed-era.com/4/poyasy_atmosfernogo_tysku_na_zemli.html'
+                     i.fa.fa-check
+                     b 7.2.
+                     | Пояси атмосферного тиску на Землi
+               li.chapter(data-level='7.3', data-path='4/viter_postiini_ta_zminni_vitry.html'
+                  a(href='http://geography.ed-era.com/4/viter_postiini_ta_zminni_vitry.html'
+                     i.fa.fa-check
+                     b 7.3.
+                     | Вiтер, постiйнi та змiннi вiтри
+               li.chapter(data-level='7.4', data-path='4/hmary_i_tuman.html'
+                  a(href='http://geography.ed-era.com/4/hmary_i_tuman.html'
+                     i.fa.fa-check
+                     b 7.4.
+                     | Хмари i туман
+                  ul.articles
+                     li.chapter(data-level='7.4.1', data-path='4/vydy_hmar.html'
+                        a(href='http://geography.ed-era.com/4/vydy_hmar.html'
+                           i.fa.fa-check
+                           b 7.4.1.
+                           | Види хмар
+               li.chapter(data-level='7.5', data-path='4/povitryani_masy,cyklony_ta_antycyklony.html'
+                  a(href='http://geography.ed-era.com/4/povitryani_masy,cyklony_ta_antycyklony.html'
+                     i.fa.fa-check
+                     b 7.5.
+                     | Повiтрянi маси,циклони та антициклони
+               li.chapter(data-level='7.6', data-path='4/vydy_opadiv_i_zakonomirnosti_ihnogo_rozpodilu.html'
+                  a(href='http://geography.ed-era.com/4/vydy_opadiv_i_zakonomirnosti_ihnogo_rozpodilu.html'
+                     i.fa.fa-check
+                     b 7.6.
+                     | Види опадiв i закономiрностi їхнього розподiлу
+               li.chapter(data-level='7.7', data-path='4/pogoda__elementy_typy,_zmina_v_chasi.html'
+                  a(href='http://geography.ed-era.com/4/pogoda__elementy_typy,_zmina_v_chasi.html'
+                     i.fa.fa-check
+                     b 7.7.
+                     | Погода, її елементи, типи, змiна в часi
+               li.chapter(data-level='7.8', data-path='4/klimat_zemli_chynnyky_iogo_formuvannya_poyasi_i_osnovni_typy.html'
+                  a(href='http://geography.ed-era.com/4/klimat_zemli_chynnyky_iogo_formuvannya_poyasi_i_osnovni_typy.html'
+                     i.fa.fa-check
+                     b 7.8.
+                     | Клiмат Землi, чинники його формування, пояси i основнi типи
+         li.chapter(data-level='8', data-path='4/biosfera.html'
+            a(href='http://geography.ed-era.com/4/biosfera.html'
+               i.fa.fa-check
+               b 8.
+               | Бiосфера
+            ul.articles
+               li.chapter(data-level='8.1', data-path='4/vplyv_gospodarsko_diyalnosti_lyudyny_na_biosferu.html'
+                  a(href='http://geography.ed-era.com/4/vplyv_gospodarsko_diyalnosti_lyudyny_na_biosferu.html'
+                     i.fa.fa-check
+                     b 8.1.
+                     | Вплив господарської дiяльностi людини на бiосферу
+               li.chapter(data-level='8.2', data-path='4/grunty.html'
+                  a(href='http://geography.ed-era.com/4/grunty.html'
+                     i.fa.fa-check
+                     b 8.2.
+                     | Ґрунти
+               li.chapter(data-level='8.3', data-path='4/geografichna_obolonka_zakonomirnosti__formuvannya_i_rozvytku.html'
+                  a(href='http://geography.ed-era.com/4/geografichna_obolonka_zakonomirnosti__formuvannya_i_rozvytku.html'
+                     i.fa.fa-check
+                     b 8.3.
+                     | Географiчна оболонка, закономiрностi її формування i розвитку
+               li.chapter(data-level='8.4', data-path='4/zonalni_ta_azonalni_pryrodni_kompleksy.html'
+                  a(href='http://geography.ed-era.com/4/zonalni_ta_azonalni_pryrodni_kompleksy.html'
+                     i.fa.fa-check
+                     b 8.4.
+                     | Зональнi та азональнi природнi комплекси
+         li.chapter(data-level='9', data-path='5/zminy_pryrody_pid_vplyvom_gospodarsko_diyalnosti_lyudyny.html'
+            a(href='http://geography.ed-era.com/5/zminy_pryrody_pid_vplyvom_gospodarsko_diyalnosti_lyudyny.html'
+               i.fa.fa-check
+               b 9.
+               | Змiни природи пiд впливом господарської     дiяльностi людини
+            ul.articles
+               li.chapter(data-level='9.1', data-path='5/zminy_komponentiv_pryrody_lyudynoyu.html'
+                  a(href='http://geography.ed-era.com/5/zminy_komponentiv_pryrody_lyudynoyu.html'
+                     i.fa.fa-check
+                     b 9.1.
+                     | Змiни компонентiв природи людиною
+               li.chapter(data-level='9.2', data-path='5/pryrodni_resursy_materykiv_ta_okeaniv.html'
+                  a(href='http://geography.ed-era.com/5/pryrodni_resursy_materykiv_ta_okeaniv.html'
+                     i.fa.fa-check
+                     b 9.2.
+                     | Природнi ресурси материкiв та океанiв
+         li.chapter(data-level='10', data-path='5/zabrudnennya_i_ohorona_pryrodnogo_seredovyscha.html'
+            a(href='http://geography.ed-era.com/5/zabrudnennya_i_ohorona_pryrodnogo_seredovyscha.html'
+               i.fa.fa-check
+               b 10.
+               | Забруднення й охорона природного середовища
+         li.chapter(data-level='11', data-path='6/rozvyazannyageografichnyh_zadach.html'
+            a(href='http://geography.ed-era.com/6/rozvyazannyageografichnyh_zadach.html'
+               i.fa.fa-check
+               b 11.
+               | Розв’язання географiчних задач
+            ul.articles
+               li.chapter(data-level='11.1', data-path='6/amplituda_kolyvan_temperatury.html'
+                  a(href='http://geography.ed-era.com/6/amplituda_kolyvan_temperatury.html'
+                     i.fa.fa-check
+                     b 11.1.
+                     | Амплiтуда коливань температури
+               li.chapter(data-level='11.2', data-path='6/zvolozhennya_terytorii.html'
+                  a(href='http://geography.ed-era.com/6/zvolozhennya_terytorii.html'
+                     i.fa.fa-check
+                     b 11.2.
+                     | Зволоження територiї
+               li.chapter(data-level='11.3', data-path='6/resursozabezpechenist.html'
+                  a(href='http://geography.ed-era.com/6/resursozabezpechenist.html'
+                     i.fa.fa-check
+                     b 11.3.
+                     | Ресурсозабезпеченiсть
+               li.chapter(data-level='11.4', data-path='6/richky.html'
+                  a(href='http://geography.ed-era.com/6/richky.html'
+                     i.fa.fa-check
+                     b 11.4.
+                     | Рiчки
+               li.chapter(data-level='11.5', data-path='6/naselennya.html'
+                  a(href='http://geography.ed-era.com/6/naselennya.html'
+                     i.fa.fa-check
+                     b 11.5.
+                     | Населення
+               li.chapter(data-level='11.6', data-path='6/tysk.html'
+                  a(href='http://geography.ed-era.com/6/tysk.html'
+                     i.fa.fa-check
+                     b 11.6.
+                     | Тиск
+               li.chapter(data-level='11.7', data-path='6/pamyatka.html'
+                  a(href='http://geography.ed-era.com/6/pamyatka.html'
+                     i.fa.fa-check
+                     b 11.7.
+                     | Пам’ятка
+
+=partial "/layouts/includes/book_subscribe"

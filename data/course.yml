@@ -9,8 +9,8 @@ courses:
     courseSubtitle: "Від фонетики до морфології"
     courseDesc: "Перший курс з української мови присвячений вивченню основ мовознавства. Шеститижневий курс з вдосконалення навичок володіння словом."
     access: true
-    free: false
-  
+    free: false 
+
   - title: history1 
     className": ""
     imgUrl: "/img/courses/history/1.jpg"
@@ -24,9 +24,9 @@ courses:
     free: false
 
   - title: math1
-    className: "",
+    className: ""
     imgUrl: "/img/courses/maths/1.jpg"
-    altText: "",
+    altText: ""
     url: "https://study.ed-era.com/courses/EdEra/m102/M102/about"
     hrefText: "Перейти до курсу"
     courseTitle: "Математика"
@@ -35,8 +35,8 @@ courses:
     access: true
     free: false
 
-  -title: physics1
-    className: "",
+  - title: physics1
+    className: ""
     imgUrl: "/img/courses/physics/1.jpg"
     altText: ""
     url: "https://study.ed-era.com/courses/EdEra/p102/P102/about"
@@ -47,7 +47,7 @@ courses:
     access: true
     free: false
     
-  -title: english1
+  - title: english1
     className: ""
     imgUrl: "/img/courses/eng/1.jpg"
     altText": ""
@@ -59,7 +59,7 @@ courses:
     access: true
     free: false
     
-  -title: biology1 
+  - title: biology1 
     className: ""
     imgUrl: "/img/courses/biology/1.jpg"
     altText: ""
@@ -71,10 +71,10 @@ courses:
     access: true
     free: false
 
-  -title: geography1:
-    className: "",
-    imgUrl: "/img/courses/geography/1.jpg",
-    altText: "",
+  - title: geography1
+    className: ""
+    imgUrl: "/img/courses/geography/1.jpg"
+    altText: ""
     url: "https://study.ed-era.com/courses/EdEra/g102/G102/about"
     hrefText: "Перейти до курсу"
     courseTitle: "Географія"
@@ -84,50 +84,50 @@ courses:
     free: false
 
 books: 
-    -title: main-books
-      url: "https://www.ed-era.com/books"
-      title: "EdEra Books – інтерактивна освітня бібліотека "
-      description: "Авторська інтерактивна освітня література, ілюстрації, візуалізації, автоматичний тестер та повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!   "
-      image: "https://www.ed-era.com/img/share/bg_books.jpg"
-    
-    -title: ukr
-      url: "https://www.ed-era.com/books/ukrainian"
-      title: "EdEra Book – Українська мова. Від фонетики та морфології  "
-      image: "https://www.ed-era.com/img/share/small/ukr.jpg"
-      description: "Інтерактивний підручник «Українська мова. Від фонетики до морфології». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra! "
-    
-    -title: physics
-      url: "https://www.ed-era.com/books/physics"
-      title: " EdEra Book – Фізика. Механіка  "
-      image: "https://www.ed-era.com/img/share/small/phys.jpg"
-      description: "Інтерактивний підручник «Фізика. Механіка». Цікавий виклад матеріалу, візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra! "
-    
-    -title: history
-      url: "https://www.ed-era.com/books/history"
-      title: " EdEra Book – Історія України. Зародження української нації  "
-      image: "https://www.ed-era.com/img/share/small/hist.jpg"
-      description: "Інтерактивний підручник « Історія України. Зародження української нації». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!"
-    
-    -title: english
-      url: "https://www.ed-era.com/books/english"
-      title: "   EdEra Book – Англійська мова. Морфологія  "
-      image: "https://www.ed-era.com/img/share/small/eng.jpg"
-      description: "  Інтерактивний підручник « Англійська мова. Морфологія». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!   "
-    
-    -title: math
-      url: "https://www.ed-era.com/books/maths"
-      title: "EdEra Book – Математика. Арифметика, рівняння та нерівності  "
-      image: "https://www.ed-era.com/img/share/small/math.jpg"
-      description: "Інтерактивний підручник «Математика. Арифметика, рівняння та нерівності». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!   "
-    
-    -title: "geography"
-      url: "https://www.ed-era.com/books/geography"
-      title: "EdEra Book – Географія. Загальна географія"
-      image: "https://www.ed-era.com/img/share/small/geo.jpg"
-      description: "Інтерактивний підручник «Географія. Загальна географія». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!"
-    
-    -title: biology
-      url: "https://www.ed-era.com/books/biology"
-      title: "   EdEra Book – Біологія. Рослини, гриби та лишайники  "
-      image: "https://www.ed-era.com/img/share/small/biol.jpg"
-      description: "Інтерактивний підручник «Біологія. Рослини, гриби та лишайники». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!"
+  - title: main-books
+    url: "https://www.ed-era.com/books"
+    title: "EdEra Books – інтерактивна освітня бібліотека "
+    description: "Авторська інтерактивна освітня література, ілюстрації, візуалізації, автоматичний тестер та повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!   "
+    image: "https://www.ed-era.com/img/share/bg_books.jpg"
+  
+  - title: ukr
+    url: "https://www.ed-era.com/books/ukrainian"
+    title: "EdEra Book – Українська мова. Від фонетики та морфології  "
+    image: "https://www.ed-era.com/img/share/small/ukr.jpg"
+    description: "Інтерактивний підручник «Українська мова. Від фонетики до морфології». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra! "
+  
+  - title: physics
+    url: "https://www.ed-era.com/books/physics"
+    title: " EdEra Book – Фізика. Механіка  "
+    image: "https://www.ed-era.com/img/share/small/phys.jpg"
+    description: "Інтерактивний підручник «Фізика. Механіка». Цікавий виклад матеріалу, візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra! "
+  
+  - title: history
+    url: "https://www.ed-era.com/books/history"
+    title: " EdEra Book – Історія України. Зародження української нації  "
+    image: "https://www.ed-era.com/img/share/small/hist.jpg"
+    description: "Інтерактивний підручник « Історія України. Зародження української нації». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!"
+  
+  - title: english
+    url: "https://www.ed-era.com/books/english"
+    title: "   EdEra Book – Англійська мова. Морфологія  "
+    image: "https://www.ed-era.com/img/share/small/eng.jpg"
+    description: "  Інтерактивний підручник « Англійська мова. Морфологія». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!   "
+  
+  - title: math
+    url: "https://www.ed-era.com/books/maths"
+    title: "EdEra Book – Математика. Арифметика, рівняння та нерівності  "
+    image: "https://www.ed-era.com/img/share/small/math.jpg"
+    description: "Інтерактивний підручник «Математика. Арифметика, рівняння та нерівності». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!   "
+  
+  - title: "geography"
+    url: "https://www.ed-era.com/books/geography"
+    title: "EdEra Book – Географія. Загальна географія"
+    image: "https://www.ed-era.com/img/share/small/geo.jpg"
+    description: "Інтерактивний підручник «Географія. Загальна географія». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!"
+  
+  - title: biology
+    url: "https://www.ed-era.com/books/biology"
+    title: "   EdEra Book – Біологія. Рослини, гриби та лишайники  "
+    image: "https://www.ed-era.com/img/share/small/biol.jpg"
+    description: "Інтерактивний підручник «Біологія. Рослини, гриби та лишайники». Візуалізації, тести, повна адаптивність. Приєднуйтесь до освіти майбутнього з EdEra!"

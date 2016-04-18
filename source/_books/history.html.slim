@@ -1,0 +1,333 @@
+=partial '/layouts/includes/gtm'
+
+.library.section.heading
+   .container
+      h1 EdEra Books
+      small Сервіс інтерактивної освітньої літератури
+
+section.about_book
+   .container
+      .book__figure
+         img(alt='', src='/img/books/hist.jpg')
+      .book__caption
+         article
+            h2
+               | Історія України: зародження української нації
+            p
+               | Вирушайте у захопливу подорож минулим: від появи перших людей на території сучасної України до утворення Речі Посполитої, могутньої сили у Східній Європі. Діяльність князів та королів, війни та битви, а також соціальні процеси – все це стане відомим та зрозумілим.
+         .b-info
+            .thead
+               .td Сторінок
+               .td Візуалізацій
+               .td Запитань
+               .td Наповнення
+            .tbody
+               .td 115
+               .td 80
+               .td 100
+               .td 75%
+         .actions
+            a.button.button--big(href='http://history.ed-era.com/', target='_blank')
+               | Читати
+               sup ❐
+            a.button.foundation.button--big(href='https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTM2NDk5NDYxNTAxIiwiYW1vdW50IjoiMTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCf0ZbQtNGC0YDQuNC80LDRgtC4IEVkRXJhIiwidHlwZSI6ImRvbmF0ZSIsImxhbmd1YWdlIjoicnUifQ%3D%3D&signature=9vDI2d8crD3Mf%2Bkwq9OB4SYTaa0%3D', target='_blank')
+               | Підтримати
+
+include ../includes/book_like.slim
+
+section.book-summary
+   .container
+      ul.summary
+         li.chapter.active(data-level='0', data-path='index.html'
+            h2
+               | Зміст
+         li.chapter(data-level='1', data-path='vstup.html'
+            a(href='http:/history.ed-era.com/vstup.html'
+               i.fa.fa-check
+               b 1.
+               | Вступне слово
+         li.chapter(data-level='2', data-path='1/poyava_ta_poselennya_lyudei_na_teritor_ukrani.html'
+            a(href='http:/history.ed-era.com/1/poyava_ta_poselennya_lyudei_na_teritor_ukrani.html'
+               i.fa.fa-check
+               b 2.
+               | Поява та поселення людей на території України
+            ul.articles
+               li.chapter(data-level='2.1', data-path='1/parostki_tsivlzats.html'
+                  a(href='http:/history.ed-era.com/1/parostki_tsivlzats.html'
+                     i.fa.fa-check
+                     b 2.1.
+                     | Паростки цивілізації
+               li.chapter(data-level='2.2', data-path='1/kimmerits.html'
+                  a(href='http:/history.ed-era.com/1/kimmerits.html'
+                     i.fa.fa-check
+                     b 2.2.
+                     | Кіммерійці
+               li.chapter(data-level='2.3', data-path='1/skfi.html'
+                  a(href='http:/history.ed-era.com/1/skfi.html'
+                     i.fa.fa-check
+                     b 2.3.
+                     | Скіфи
+               li.chapter(data-level='2.4', data-path='1/sarmati.html'
+                  a(href='http:/history.ed-era.com/1/sarmati.html'
+                     i.fa.fa-check
+                     b 2.4.
+                     | Сармати
+               li.chapter(data-level='2.5', data-path='1/pivnichne_prichornomorya_ta_krim_koloni-polisi.html'
+                  a(href='http:/history.ed-era.com/1/pivnichne_prichornomorya_ta_krim_koloni-polisi.html'
+                     i.fa.fa-check
+                     b 2.5.
+                     | Пiвнiчне Причорномор’я та Крим (колонiї-полiси)
+               li.chapter(data-level='2.6', data-path='1/pradavn_slovyani.html'
+                  a(href='http:/history.ed-era.com/1/pradavn_slovyani.html'
+                     i.fa.fa-check
+                     b 2.6.
+                     | Прадавні слов’яни
+         li.chapter(data-level='3', data-path='2/utvorennya_kivsko_rusi.html'
+            a(href='http:/history.ed-era.com/2/utvorennya_kivsko_rusi.html'
+               i.fa.fa-check
+               b 3.
+               | Утворення Київської Русi
+            ul.articles
+               li.chapter(data-level='3.1', data-path='2/oleg_845-912.html'
+                  a(href='http:/history.ed-era.com/2/oleg_845-912.html'
+                     i.fa.fa-check
+                     b 3.1.
+                     | Олег (845-912)
+               li.chapter(data-level='3.2', data-path='2/igor_bl_879945.html'
+                  a(href='http:/history.ed-era.com/2/igor_bl_879945.html'
+                     i.fa.fa-check
+                     b 3.2.
+                     | Iгор (бл. 879—945)
+               li.chapter(data-level='3.3', data-path='2/olga_bl_890-969.html'
+                  a(href='http:/history.ed-era.com/2/olga_bl_890-969.html'
+                     i.fa.fa-check
+                     b 3.3.
+                     | Ольга (бл. 890-969)
+               li.chapter(data-level='3.4', data-path='2/svyatoslav_934-972.html'
+                  a(href='http:/history.ed-era.com/2/svyatoslav_934-972.html'
+                     i.fa.fa-check
+                     b 3.4.
+                     | Святослав (934-972)
+               li.chapter(data-level='3.5', data-path='2/yaropolk_956-980.html'
+                  a(href='http:/history.ed-era.com/2/yaropolk_956-980.html'
+                     i.fa.fa-check
+                     b 3.5.
+                     | Ярополк (956-980)
+               li.chapter(data-level='3.6', data-path='2/volodimir_958-1015.html'
+                  a(href='http:/history.ed-era.com/2/volodimir_958-1015.html'
+                     i.fa.fa-check
+                     b 3.6.
+                     | Володимир (958-1015)
+               li.chapter(data-level='3.7', data-path='2/svyatopolk_981-1019.html'
+                  a(href='http:/history.ed-era.com/2/svyatopolk_981-1019.html'
+                     i.fa.fa-check
+                     b 3.7.
+                     | Святополк (981-1019)
+               li.chapter(data-level='3.8', data-path='2/yaroslav_981-1054.html'
+                  a(href='http:/history.ed-era.com/2/yaroslav_981-1054.html'
+                     i.fa.fa-check
+                     b 3.8.
+                     | Ярослав (981-1054)
+               li.chapter(data-level='3.9', data-path='2/mizhderzhavni_ugodi.html'
+                  a(href='http:/history.ed-era.com/2/mizhderzhavni_ugodi.html'
+                     i.fa.fa-check
+                     b 3.9.
+                     | Мiждержавнi угоди
+               li.chapter(data-level='3.10', data-path='2/priinyattya_hristiyanstva.html'
+                  a(href='http:/history.ed-era.com/2/priinyattya_hristiyanstva.html'
+                     i.fa.fa-check
+                     b 3.10.
+                     | Прийняття християнства
+         li.chapter(data-level='4', data-path='3/trumvrat.html'
+            a(href='http:/history.ed-era.com/3/trumvrat.html'
+               i.fa.fa-check
+               b 4.
+               | Ярославичi та роздробленiсть. Володимир Мономах
+            ul.articles
+               li.chapter(data-level='4.1', data-path='3/volodimir__monomah_1053-1125.html'
+                  a(href='http:/history.ed-era.com/3/volodimir__monomah_1053-1125.html'
+                     i.fa.fa-check
+                     b 4.1.
+                     | Володимир ІІ Мономах (1053-1125)
+                  ul.articles
+                     li.chapter(data-level='4.1.1', data-path='3/mstislav_velikii_1076-1132.html'
+                        a(href='http:/history.ed-era.com/3/mstislav_velikii_1076-1132.html'
+                           i.fa.fa-check
+                           b 4.1.1.
+                           | Мстислав Великий (1076-1132)
+               li.chapter(data-level='4.2', data-path='3/rozdroblenst.html'
+                  a(href='http:/history.ed-era.com/3/rozdroblenst.html'
+                     i.fa.fa-check
+                     b 4.2.
+                     | Роздробленість
+               li.chapter(data-level='4.3', data-path='3/genealogchne_derevo.html'
+                  a(href='http:/history.ed-era.com/3/genealogchne_derevo.html'
+                     i.fa.fa-check
+                     b 4.3.
+                     | Генеалогічне дерево
+         li.chapter(data-level='5', data-path='3/vstup.html'
+            a(href='http:/history.ed-era.com/3/vstup.html'
+               i.fa.fa-check
+               b 5.
+               | Галицько-Волинська держава
+            ul.articles
+               li.chapter(data-level='5.1', data-path='3/galitske_knyazvstvo.html'
+                  a(href='http:/history.ed-era.com/3/galitske_knyazvstvo.html'
+                     i.fa.fa-check
+                     b 5.1.
+                     | Галицьке князівство
+                  ul.articles
+                     li.chapter(data-level='5.1.1', data-path='3/yaroslav_volodimirovich_osmomisl_1130-1187.html'
+                        a(href='http:/history.ed-era.com/3/yaroslav_volodimirovich_osmomisl_1130-1187.html'
+                           i.fa.fa-check
+                           b 5.1.1.
+                           | Ярослав Володимирович Осмомисл (бл. 1130-1187)
+               li.chapter(data-level='5.2', data-path='3/volinske_knyazvstvo.html'
+                  a(href='http:/history.ed-era.com/3/volinske_knyazvstvo.html'
+                     i.fa.fa-check
+                     b 5.2.
+                     | Волинське князівство
+               li.chapter(data-level='5.3', data-path='3/galitsko-volinske_knyazvstvo.html'
+                  a(href='http:/history.ed-era.com/3/galitsko-volinske_knyazvstvo.html'
+                     i.fa.fa-check
+                     b 5.3.
+                     | Галицько-Волинське князівство
+                  ul.articles
+                     li.chapter(data-level='5.3.1', data-path='3/roman_mstislavovich_1150-1205.html'
+                        a(href='http:/history.ed-era.com/3/roman_mstislavovich_1150-1205.html'
+                           i.fa.fa-check
+                           b 5.3.1.
+                           | Роман Мстиславович (бл. 1150-1205)
+                     li.chapter(data-level='5.3.2', data-path='3/1205-1238_roki.html'
+                        a(href='http:/history.ed-era.com/3/1205-1238_roki.html'
+                           i.fa.fa-check
+                           b 5.3.2.
+                           | 1205-1238 роки
+                     li.chapter(data-level='5.3.3', data-path='3/danilo_galitskii_1201-1264.html'
+                        a(href='http:/history.ed-era.com/3/danilo_galitskii_1201-1264.html'
+                           i.fa.fa-check
+                           b 5.3.3.
+                           | Данило Галицький (1201-1264)
+                     li.chapter(data-level='5.3.4', data-path='3/danilov_naschadki_1264-1349.html'
+                        a(href='http:/history.ed-era.com/3/danilov_naschadki_1264-1349.html'
+                           i.fa.fa-check
+                           b 5.3.4.
+                           | Данилові нащадки (1264-1349)
+               li.chapter(data-level='5.4', data-path='3/pidsumok.html'
+                  a(href='http:/history.ed-era.com/3/pidsumok.html'
+                     i.fa.fa-check
+                     b 5.4.
+                     | Підсумок
+         li.chapter(data-level='6', data-path='6/vstup.html'
+            a(href='http:/history.ed-era.com/6/vstup.html'
+               i.fa.fa-check
+               b 6.
+               | Монголо-татарська навала
+            ul.articles
+               li.chapter(data-level='6.1', data-path='6/mongolska_mperya.html'
+                  a(href='http:/history.ed-era.com/6/mongolska_mperya.html'
+                     i.fa.fa-check
+                     b 6.1.
+                     | Монгольська імперія
+               li.chapter(data-level='6.2', data-path='6/zolota_orda.html'
+                  a(href='http:/history.ed-era.com/6/zolota_orda.html'
+                     i.fa.fa-check
+                     b 6.2.
+                     | Золота орда
+                  ul.articles
+                     li.chapter(data-level='6.2.1', data-path='6/bitva_na_kalts.html'
+                        a(href='http:/history.ed-era.com/6/bitva_na_kalts.html'
+                           i.fa.fa-check
+                           b 6.2.1.
+                           | Битва на Калці
+               li.chapter(data-level='6.3', data-path='6/mongolo-tatarske_go.html'
+                  a(href='http:/history.ed-era.com/6/mongolo-tatarske_go.html'
+                     i.fa.fa-check
+                     b 6.3.
+                     | Монголо-татарське іго
+               li.chapter(data-level='6.4', data-path='6/visnovki.html'
+                  a(href='http:/history.ed-era.com/6/visnovki.html'
+                     i.fa.fa-check
+                     b 6.4.
+                     | Висновки
+         li.chapter(data-level='7', data-path='7/poltichnii_ustri.html'
+            a(href='http:/history.ed-era.com/7/poltichnii_ustri.html'
+               i.fa.fa-check
+               b 7.
+               | Господарське життя Русi. Верстви населення. "Руська правда"
+            ul.articles
+               li.chapter(data-level='7.1', data-path='7/suspilstvo_rus.html'
+                  a(href='http:/history.ed-era.com/7/suspilstvo_rus.html'
+                     i.fa.fa-check
+                     b 7.1.
+                     | Суспільство Русі
+               li.chapter(data-level='7.2', data-path='7/ruska_pravda.html'
+                  a(href='http:/history.ed-era.com/7/ruska_pravda.html'
+                     i.fa.fa-check
+                     b 7.2.
+                     | "Руська правда"
+               li.chapter(data-level='7.3', data-path='7/gospodarske_zhittya_ta_ekonomka_rus.html'
+                  a(href='http:/history.ed-era.com/7/gospodarske_zhittya_ta_ekonomka_rus.html'
+                     i.fa.fa-check
+                     b 7.3.
+                     | Господарське життя та економіка Русі
+         li.chapter(data-level='8')
+            span
+               b 8.
+               |Між Руссю та Річчю
+            ul.articles
+               li.chapter(data-level='8.1')
+                  span
+                     b 8.1.
+                     |Експансія Великого Князівства Литовського на руські землі
+               li.chapter(data-level='8.2')
+                  span
+                     b 8.2.
+                     |Королівство Польське та землі Галицько-Волинського князівства
+               li.chapter(data-level='8.3')
+                  span
+                     b 8.3.
+                     |Кревська унiя
+               li.chapter(data-level='8.4')
+                  span
+                     b 8.4.
+                     |Утворення Кримського ханства
+               li.chapter(data-level='8.5')
+                  span
+                     b 8.5.
+                     |Османська імперія
+         li.chapter(data-level='9')
+            span
+               b 9.
+               |Суспiльно-полiтичнi процеси першої половини XVII століття
+            ul.articles
+               li.chapter(data-level='9.1')
+                  span
+                     b 9.1.
+                     |Рiч Посполита
+               li.chapter(data-level='9.2')
+                  span
+                     b 9.2.
+                     |Люблiнська та Берестейська унiї
+               li.chapter(data-level='9.3')
+                  span
+                     b 9.3.
+                     |Греко-католицька церква
+               li.chapter(data-level='9.4')
+                  span
+                     b 9.4.
+                     |Соцiальнi прошарки Речi
+               li.chapter(data-level='9.5')
+                  span
+                     b 9.5.
+                     |Поява козацтва
+               li.chapter(data-level='9.6')
+                  span
+                     b 9.6.
+                     |"Золота доба"
+               li.chapter(data-level='9.7')
+                  span
+                     b 9.7.
+                     |Поява заможного українства, формування нацiонально свiдомої iнтелiгенцiї
+                     
+=partial "/layouts/includes/book_subscribe"

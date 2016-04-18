@@ -1,0 +1,39 @@
+.welcome {
+	.container + .container {
+		margin-top: 50px;
+	}
+}
+
+
+.main_trends {
+	@include row(table);
+}
+
+.trend {
+	display: table-cell;
+	width: 30%;
+	margin: 0 2.5%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	vertical-align: middle;
+  padding: 25px 6.5%;
+  color: currentcolor;
+
+	&:nth-child(2n) {
+		border-left: 1px solid currentcolor;
+		border-right: 1px solid currentcolor;
+	}
+
+	&:last-child {
+		border-right: 0;
+	}
+
+	a {
+		color: inherit;
+
+		&:hover {
+			color: black;
+		}
+	}
+}

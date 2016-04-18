@@ -14,8 +14,17 @@
 
 // SECTIONS
 
-@import 'sections/welcome';
+@import 'sections/main/welcome';
+
+@import 'sections/main/education';
+
 @import 'sections/about';
 @import 'sections/features';
 @import 'sections/partners';
 @import 'sections/contacts';
+
+
+
+// COMPONENTS
+
+@import 'sections/components/section_title';

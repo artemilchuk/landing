@@ -15,10 +15,19 @@
 }
 
 .partner {
-	@include span-columns(1 of 5)
+	@include span-columns(1 of 5);
+	display: inline-block;
+
 }
 
 .partner_img {
-	display: block;
+	display: inline-block;
 	width: 100%;
+	height: 125px;
+	line-height: 125px;
+
+	img {
+		display: inline-block;
+		vertical-align: middle;
+	}
 }
