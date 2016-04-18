@@ -6,6 +6,11 @@
 
 
 .site_nav {
+	display: inline-block;
+	height: 60px;
+	line-height: 60px;
+
+
 	.site_header & {
 		float: right;
 	}	
@@ -19,6 +24,7 @@
 
 .menu_item {
 	display: inline-block;
+	vertical-align: middle;
 	padding: 0;
 	margin: 0;
 	margin-right: $half-spacing;

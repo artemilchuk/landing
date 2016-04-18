@@ -4,11 +4,11 @@ html
     meta charset="utf-8"
     meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"
   
-    title = current_page.data.title || "The Middleman"
+    title = current_page.data.title || "Ed-Era"
 
     meta content="" name="description"
     meta content="" name="keywords"
-    meta content="Oleg Mokhniuk | oleg.codes" name="author"
+    meta content="" name="author"
     
     meta content="index, follow" name="robots"
     meta content="nositelinkssearchbox" name="google"
@@ -31,7 +31,7 @@ html
       == partial '/layouts/components/shared/header'
       == yield
 
-    == partial '/layouts/components/shared/footer'
+    
 
     == javascript_include_tag "https://code.jquery.com/jquery-1.12.3.min.js"
     == javascript_include_tag "application"

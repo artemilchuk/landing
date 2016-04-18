@@ -24,20 +24,34 @@ menu:
 
 
 partners:
-  title: Partners
   
   partnersList:
-    - title: 'Oleg Mokhniuk'
-      img: 'oleg.png'
-      url: '//oleg.codes'
-      caption: 'oleg.codes'
+    - title: ''
+      img: 'bfmc.png'
+      url: '//'
+      caption: ''
 
-    - title: 'Perfectionist Media'
-      img: 'perfectionist.png'
-      url: '//perfectionist.media'
-      caption: 'perfectionist.media'
+    - title: ''
+      img: 'platforma.png'
+      url: '//'
+      caption: ''
 
+    - title: ''
+      img: 'apparat.png'
+      url: '//'
+      caption: ''
 
+    - title: ''
+      img: 'reed.png'
+      url: '//'
+      caption: ''
+
+    - title: ''
+      img: 'edera.png'
+      url: '//'
+      caption: ''
+
+    
 
 contacts:
   title: Contact
