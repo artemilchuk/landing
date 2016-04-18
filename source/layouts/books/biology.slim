@@ -1,0 +1,389 @@
+include ../includes/gtm.slim
+
+.library.section.heading
+   .container
+      h1 EdEra Books
+      small Сервіс інтерактивної освітньої літератури
+
+section.about_book
+   .container
+      .book__figure
+         img src="/img/books/biol.jpg"
+      .book__caption
+         article
+            h2
+               | Біологія: Рослини, гриби та лишайники
+            p
+               | Ця книга присвячена першому кроку на шляху до вивчення всього живого. Перед вами розкриються всі таємниці та тонкощі чарівного світу рослин. Приєднуйтеся!
+         .b-info
+            .thead
+               .td Сторінок
+               .td Візуалізацій
+               .td Запитань
+               .td Наповнення
+            .tbody
+               .td 95
+               .td 70
+               .td 80
+               .td 100%
+         .actions
+            a.button.button--big(href='http://biology.ed-era.com/', target='_blank')
+               | Читати
+               sup ❐
+            a.button.foundation.button--big(href='https://www.liqpay.com/api/3/checkout?data=eyJ2ZXJzaW9uIjozLCJhY3Rpb24iOiJwYXlkb25hdGUiLCJwdWJsaWNfa2V5IjoiaTM2NDk5NDYxNTAxIiwiYW1vdW50IjoiMTAwIiwiY3VycmVuY3kiOiJVQUgiLCJkZXNjcmlwdGlvbiI6ItCf0ZbQtNGC0YDQuNC80LDRgtC4IEVkRXJhIiwidHlwZSI6ImRvbmF0ZSIsImxhbmd1YWdlIjoicnUifQ%3D%3D&signature=9vDI2d8crD3Mf%2Bkwq9OB4SYTaa0%3D', target='_blank')
+               | Підтримати
+
+
+include ../includes/book_like.slim
+
+
+
+section.book-summary
+   .container
+      ul.summary
+         li.chapter.active(data-level='0', data-path='index.html')
+            h2
+               | Зміст
+         li.chapter(data-level='1', data-path='vstup.html')
+            a(href='http://biology.ed-era.com/vstup.html')
+               b 1.
+               |                         Вступне слово
+         li.chapter(data-level='2', data-path='1/predmet_vivchennya_biologi_osnovni_oznaki_zhivo_materi_oznachennya.html')
+            a(href='http://biology.ed-era.com/1/predmet_vivchennya_biologi_osnovni_oznaki_zhivo_materi_oznachennya.html')
+               b 2.
+               |                         Вступ до бiологiї та ботанiки
+            ul.articles
+               li.chapter(data-level='2.1', data-path='1/tsarstva_zhivogo.html')
+                  a(href='http://biology.ed-era.com/1/tsarstva_zhivogo.html')
+                     b 2.1.
+                     |                         Царства живого
+               li.chapter(data-level='2.2', data-path='1/biologichni_nauki.html')
+                  a(href='http://biology.ed-era.com/1/biologichni_nauki.html')
+                     b 2.2.
+                     |                         Бiологiчнi науки
+               li.chapter(data-level='2.3', data-path='1/predmet_vivchennya_botaniki_harakteristika_tsarstva_roslini.html')
+                  a(href='http://biology.ed-era.com/1/predmet_vivchennya_botaniki_harakteristika_tsarstva_roslini.html')
+                     
+                     b 2.3.
+                     |                         Предмет вивчення ботанiки. Характеристика царства Рослини
+         li.chapter(data-level='3', data-path='2/roslinna_klitina.html')
+            a(href='http://biology.ed-era.com/2/roslinna_klitina.html')
+               
+               b 3.
+               |                         Клiтина та тканини рослин
+            ul.articles
+               li.chapter(data-level='3.1', data-path='2/roslinni_tkanini.html')
+                  a(href='http://biology.ed-era.com/2/roslinni_tkanini.html')
+                     
+                     b 3.1.
+                     |                         Рослиннi тканини
+         li.chapter(data-level='4', data-path='3/organi_roslin.html')
+            a(href='http://biology.ed-era.com/3/organi_roslin.html')
+               
+               b 4.
+               |                         Вегетативнi органи рослин
+            ul.articles
+               li.chapter(data-level='4.1', data-path='3/korin.html')
+                  a(href='http://biology.ed-era.com/3/korin.html')
+                     
+                     b 4.1.
+                     |                         Корiнь
+                  ul.articles
+                     li.chapter(data-level='4.1.1', data-path='3/korenevi_sistemi.html')
+                        a(href='http://biology.ed-era.com/3/korenevi_sistemi.html')
+                           
+                           b 4.1.1.
+                           |                         Кореневi системи
+                     li.chapter(data-level='4.1.2', data-path='3/zoni_korenya.html')
+                        a(href='http://biology.ed-era.com/3/zoni_korenya.html')
+                           
+                           b 4.1.2.
+                           |                         Зони кореня
+                     li.chapter(data-level='4.1.3', data-path='3/vnutrishnya_budova_korenya_u_vsisnii_zoni.html')
+                        a(href='http://biology.ed-era.com/3/vnutrishnya_budova_korenya_u_vsisnii_zoni.html')
+                           
+                           b 4.1.3.
+                           |                         Внутрiшня будова кореня у всиснiй зонi
+                     li.chapter(data-level='4.1.4', data-path='3/vidozmini_korenya.html')
+                        a(href='http://biology.ed-era.com/3/vidozmini_korenya.html')
+                           
+                           b 4.1.4.
+                           |                         Видозмiни кореня
+               li.chapter(data-level='4.2', data-path='3/dobriva.html')
+                  a(href='http://biology.ed-era.com/3/dobriva.html')
+                     
+                     b 4.2.
+                     |                         Добрива
+               li.chapter(data-level='4.3', data-path='3/pagin_zagalna_harakteristika.html')
+                  a(href='http://biology.ed-era.com/3/pagin_zagalna_harakteristika.html')
+                     
+                     b 4.3.
+                     |                         Пагiн: загальна характеристика
+                  ul.articles
+                     li.chapter(data-level='4.3.1', data-path='3/rist_ta_galuzhennya_pagona.html')
+                        a(href='http://biology.ed-era.com/3/rist_ta_galuzhennya_pagona.html')
+                           
+                           b 4.3.1.
+                           |                         Рiст та галуження пагона
+               li.chapter(data-level='4.4', data-path='3/pagin_brunka.html')
+                  a(href='http://biology.ed-era.com/3/pagin_brunka.html')
+                     
+                     b 4.4.
+                     |                         Пагiн: брунька
+               li.chapter(data-level='4.5', data-path='3/pagin_steblo.html')
+                  a(href='http://biology.ed-era.com/3/pagin_steblo.html')
+                     
+                     b 4.5.
+                     |                         Пагiн: стебло
+                  ul.articles
+                     li.chapter(data-level='4.5.1', data-path='3/transport_rechovin.html')
+                        a(href='http://biology.ed-era.com/3/transport_rechovin.html')
+                           
+                           b 4.5.1.
+                           |                         Транспорт речовин
+               li.chapter(data-level='4.6', data-path='3/nadzemni_vidozmini.html')
+                  a(href='http://biology.ed-era.com/3/nadzemni_vidozmini.html')
+                     
+                     b 4.6.
+                     |                         Видозмiни
+                  ul.articles
+                     li.chapter(data-level='4.6.1', data-path='3/pidzemni_vidozmini.html')
+                        a(href='http://biology.ed-era.com/3/pidzemni_vidozmini.html')
+                           
+                           b 4.6.1.
+                           |                         Пiдземнi видозмiни
+               li.chapter(data-level='4.7', data-path='3/pagin_listok.html')
+                  a(href='http://biology.ed-era.com/3/pagin_listok.html')
+                     
+                     b 4.7.
+                     |                         Пагiн: листок
+                  ul.articles
+                     li.chapter(data-level='4.7.1', data-path='3/zovnishnya_budova_listka.html')
+                        a(href='http://biology.ed-era.com/3/zovnishnya_budova_listka.html')
+                           
+                           b 4.7.1.
+                           |                         Зовнiшня будова листка
+                     li.chapter(data-level='4.7.2', data-path='3/klasifikatsiya_listkiv.html')
+                        a(href='http://biology.ed-era.com/3/klasifikatsiya_listkiv.html')
+                           
+                           b 4.7.2.
+                           |                         Класифiкацiя листкiв
+                     li.chapter(data-level='4.7.3', data-path='3/zhilkuvannya.html')
+                        a(href='http://biology.ed-era.com/3/zhilkuvannya.html')
+                           
+                           b 4.7.3.
+                           |                         Жилкування
+                     li.chapter(data-level='4.7.4', data-path='3/listkorozmischennya.html')
+                        a(href='http://biology.ed-era.com/3/listkorozmischennya.html')
+                           
+                           b 4.7.4.
+                           |                         Листкорозмiщення
+                     li.chapter(data-level='4.7.5', data-path='3/vnutrishnya_budova_listka.html')
+                        a(href='http://biology.ed-era.com/3/vnutrishnya_budova_listka.html')
+                           
+                           b 4.7.5.
+                           |                         Внутрiшня будова листка
+                     li.chapter(data-level='4.7.6', data-path='3/yavische_listopadu.html')
+                        a(href='http://biology.ed-era.com/3/yavische_listopadu.html')
+                           
+                           b 4.7.6.
+                           |                         Явище листопаду
+                     li.chapter(data-level='4.7.7', data-path='3/vidozmini_listka.html')
+                        a(href='http://biology.ed-era.com/3/vidozmini_listka.html')
+                           
+                           b 4.7.7.
+                           |                         Видозмiни листка
+               li.chapter(data-level='4.8', data-path='3/protsesi_zhittdiyalnosti_roslin.html')
+                  a(href='http://biology.ed-era.com/3/protsesi_zhittdiyalnosti_roslin.html')
+                     
+                     b 4.8.
+                     |                         Процеси життєдiяльностi рослин
+         li.chapter(data-level='5', data-path='4/reproduktivni_organi_roslin.html')
+            a(href='http://biology.ed-era.com/4/reproduktivni_organi_roslin.html')
+               
+               b 5.
+               |                         Репродуктивнi органи рослин
+            ul.articles
+               li.chapter(data-level='5.1', data-path='4/zovnishnya_budova_kvitky.html')
+                  a(href='http://biology.ed-era.com/4/zovnishnya_budova_kvitky.html')
+                     
+                     b 5.1.
+                     |                         Зовнішня будова квітки
+               li.chapter(data-level='5.2', data-path='4/sutsvittya.html')
+                  a(href='http://biology.ed-era.com/4/sutsvittya.html')
+                     
+                     b 5.2.
+                     |                         Суцвіття
+               li.chapter(data-level='5.3', data-path='4/zapilennya_ta_zapldnennya.html')
+                  a(href='http://biology.ed-era.com/4/zapilennya_ta_zapldnennya.html')
+                     
+                     b 5.3.
+                     |                         Запилення та запліднення
+                  ul.articles
+                     li.chapter(data-level='5.3.1', data-path='4/budova_tichinki_ta_pilkovogo_zerna.html')
+                        a(href='http://biology.ed-era.com/4/budova_tichinki_ta_pilkovogo_zerna.html')
+                           
+                           b 5.3.1.
+                           |                         Будова тичинки та пилкового зерна
+                     li.chapter(data-level='5.3.2', data-path='4/budova_matochki_ta_nasnnogo_zachatka.html')
+                        a(href='http://biology.ed-era.com/4/budova_matochki_ta_nasnnogo_zachatka.html')
+                           
+                           b 5.3.2.
+                           |                         Будова маточки та насінного зачатка
+                     li.chapter(data-level='5.3.3', data-path='4/mehanzm_podvinogo_zapldnennya.html')
+                        a(href='http://biology.ed-era.com/4/mehanzm_podvinogo_zapldnennya.html')
+                           
+                           b 5.3.3.
+                           |                         Механізм подвійного запліднення
+               li.chapter(data-level='5.4', data-path='4/nasnina.html')
+                  a(href='http://biology.ed-era.com/4/nasnina.html')
+                     
+                     b 5.4.
+                     |                         Насінина
+               li.chapter(data-level='5.5', data-path='4/plid.html')
+                  a(href='http://biology.ed-era.com/4/plid.html')
+                     
+                     b 5.5.
+                     |                         Плід
+                  ul.articles
+                     li.chapter(data-level='5.5.1', data-path='4/sokovyti_plody.html')
+                        a(href='http://biology.ed-era.com/4/sokovyti_plody.html')
+                           
+                           b 5.5.1.
+                           |                         Соковиті плоди
+                     li.chapter(data-level='5.5.2', data-path='4/suhi_plody.html')
+                        a(href='http://biology.ed-era.com/4/suhi_plody.html')
+                           
+                           b 5.5.2.
+                           |                         Сухі плоди
+                     li.chapter(data-level='5.5.3', data-path='4/sposoby_poshirennya_plodiv.html')
+                        a(href='http://biology.ed-era.com/4/sposoby_poshirennya_plodiv.html')
+                           
+                           b 5.5.3.
+                           |                         Способи поширення плодів і насіння
+               li.chapter(data-level='5.6', data-path='4/vegetatyvne_rozmnozhennya.html')
+                  a(href='http://biology.ed-era.com/4/vegetatyvne_rozmnozhennya.html')
+                     
+                     b 5.6.
+                     |                         Вегетативне розмноження
+         li.chapter(data-level='6', data-path='5/riznomanitnist_roslyn.html')
+            a(href='http://biology.ed-era.com/5/riznomanitnist_roslyn.html')
+               
+               b 6.
+               |                         Різноманітність рослин. Водорості(нижчі) та вищі сопорові рослини
+            ul.articles
+               li.chapter(data-level='6.1', data-path='5/vodorosti.html')
+                  a(href='http://biology.ed-era.com/5/vodorosti.html')
+                     
+                     b 6.1.
+                     |                         Водорості
+                  ul.articles
+                     li.chapter(data-level='6.1.1', data-path='5/zeleni_vodorosti.html')
+                        a(href='http://biology.ed-era.com/5/zeleni_vodorosti.html')
+                           
+                           b 6.1.1.
+                           |                         Зелені водорості
+                     li.chapter(data-level='6.1.2', data-path='5/diatomovi_vodorosti.html')
+                        a(href='http://biology.ed-era.com/5/diatomovi_vodorosti.html')
+                           
+                           b 6.1.2.
+                           |                         Діатомові водорості
+                     li.chapter(data-level='6.1.3', data-path='5/buri_vodorosti.html')
+                        a(href='http://biology.ed-era.com/5/buri_vodorosti.html')
+                           
+                           b 6.1.3.
+                           |                         Бурі водорості
+                     li.chapter(data-level='6.1.4', data-path='5/chervoni_vodorosti_bagryanky.html')
+                        a(href='http://biology.ed-era.com/5/chervoni_vodorosti_bagryanky.html')
+                           
+                           b 6.1.4.
+                           |                         Червоні водорості (Багрянки)
+               li.chapter(data-level='6.2', data-path='5/vyhid_roslyn_na_suhodol.html')
+                  a(href='http://biology.ed-era.com/5/vyhid_roslyn_na_suhodol.html')
+                     
+                     b 6.2.
+                     |                         «Вихід» рослин на суходіл
+               li.chapter(data-level='6.3', data-path='5/vyschi_sporov_roslyny.html')
+                  a(href='http://biology.ed-era.com/5/vyschi_sporov_roslyny.html')
+                     
+                     b 6.3.
+                     |                         Вищі спорові рослини
+                  ul.articles
+                     li.chapter(data-level='6.3.1', data-path='5/viddil_mohopodibni.html')
+                        a(href='http://biology.ed-era.com/5/viddil_mohopodibni.html')
+                           
+                           b 6.3.1.
+                           |                         Відділ Мохоподібні
+                     li.chapter(data-level='6.3.2', data-path='5/viddil_plaunopodibni.html')
+                        a(href='http://biology.ed-era.com/5/viddil_plaunopodibni.html')
+                           
+                           b 6.3.2.
+                           |                         Відділ Плауноподібні
+                     li.chapter(data-level='6.3.3', data-path='5/viddil_hvoschepodibni.html')
+                        a(href='http://biology.ed-era.com/5/viddil_hvoschepodibni.html')
+                           
+                           b 6.3.3.
+                           |                         Відділ Хвощеподібні
+                     li.chapter(data-level='6.3.4', data-path='5/viddil_paporotepodibni.html')
+                        a(href='http://biology.ed-era.com/5/viddil_paporotepodibni.html')
+                           
+                           b 6.3.4.
+                           |                         Відділ Папоротеподібні
+         li.chapter(data-level='7', data-path='6/viddil_golonasinni.html')
+            a(href='http://biology.ed-era.com/6/viddil_golonasinni.html')
+               
+               b 7.
+               |                         Різноманітність рослин: насінні рослини. Голонасінні.
+            ul.articles
+               li.chapter(data-level='7.1', data-path='6/riznomanitnist_golonasinnyh.html')
+                  a(href='http://biology.ed-era.com/6/riznomanitnist_golonasinnyh.html')
+                     
+                     b 7.1.
+                     |                         Різноманітність Голонасінних
+               li.chapter(data-level='7.2', data-path='6/klas_hvoini.html')
+                  a(href='http://biology.ed-era.com/6/klas_hvoini.html')
+                     
+                     b 7.2.
+                     |                         Клас Хвойні
+               li.chapter(data-level='7.3', data-path='6/viddil_pokrytonasinni.html')
+                  a(href='http://biology.ed-era.com/6/viddil_pokrytonasinni.html')
+                     
+                     b 7.3.
+                     |                         Відділ Покритонасінні
+               li.chapter(data-level='7.4', data-path='6/klas_dvodolni.html')
+                  a(href='http://biology.ed-era.com/6/klas_dvodolni.html')
+                     
+                     b 7.4.
+                     |                         Клас Дводольні
+               li.chapter(data-level='7.5', data-path='6/klas_odnodolni.html')
+                  a(href='http://biology.ed-era.com/6/klas_odnodolni.html')
+                     
+                     b 7.5.
+                     |                         Клас Однодольні
+         li.chapter(data-level='8', data-path='7/gribi.html')
+            a(href='http://biology.ed-era.com/7/gribi.html')
+               
+               b 8.
+               |                         Гриби
+            ul.articles
+               li.chapter(data-level='8.1', data-path='7/tsvlev_gribi.html')
+                  a(href='http://biology.ed-era.com/7/tsvlev_gribi.html')
+                     
+                     b 8.1.
+                     |                         Цвілеві гриби
+               li.chapter(data-level='8.2', data-path='7/shapkov_gribi.html')
+                  a(href='http://biology.ed-era.com/7/shapkov_gribi.html')
+                     b 8.2.
+                     |                         Шапкові гриби
+               li.chapter(data-level='8.3', data-path='7/gribi-paraziti.html')
+                  a(href='http://biology.ed-era.com/7/gribi-paraziti.html')
+                     b 8.3.
+                     |                         Гриби-паразити
+         li.chapter(data-level='9', data-path='7/lishainiki.html')
+            a(href='http://biology.ed-era.com/7/lishainiki.html')
+               b 9.
+               |                         Лишайники
+
+
+include ../includes/book_subscribe.slim
+

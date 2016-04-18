@@ -1,0 +1,344 @@
+// BOOKS
+
+.bookshelf {
+  @include outer-container(12);
+  @include row;
+
+  .book {
+    @include inline-block;
+
+    @include media($mobile) {
+      @include span-columns(8);
+      @include row;
+
+      margin-bottom: 20px;
+    }
+
+    @include media($tablet) {
+      @include span-columns(6 of 12);
+
+      &:nth-child(2n) {
+        @include omega;
+      }
+    }
+
+    @include media($desktop) {
+      @include span-columns(4 of 12);
+
+      &:nth-child(3n) {
+        @include omega;
+      }
+    }
+
+
+    figure {
+      @include media($mobile) {
+        text-align: left;
+        padding: 1em 0;
+        margin: 0;
+
+        img {
+          @include span-columns(4 of 8);
+          width: 50%;
+        }
+
+        figcaption {
+        }
+
+        h3 {
+          text-align: left;
+
+          small:before {
+            left: 53.5%;
+          }
+        }
+      }
+
+
+      @include media($tablet) {
+        text-align: center;
+        padding: 1em 0px;
+
+        img {
+          @include inline-block;
+          width: auto;
+          background-color: #eee;
+          box-shadow: 0 1px 2px rgba(0,0,0,.4);
+        }
+
+        figcaption {
+          margin-top: 10px;
+          height: 100px;
+        }
+
+        h3 {
+          text-align: center;
+
+          small:before {
+            margin-left: -35px;
+            left: 50%;
+          }
+        }
+      }
+
+      @include media($desktop) {
+        text-align: center;
+        padding: 1em 20px;
+
+        img {
+          @include inline-block;
+          width: auto;
+          background-color: #eee;
+          box-shadow: 0 1px 2px rgba(0,0,0,.4);
+        }
+
+        figcaption {
+          margin-top: 10px;
+          height: 100px;
+        }
+
+        h3 {
+          text-align: center;
+
+          small:before {
+            margin-left: -35px;
+            left: 50%;
+          }
+        }
+      }
+
+
+
+      h3 {
+        display: block;
+
+        small {
+          display: block;
+          position: relative;
+          margin-top: 20px;
+
+          &:before {
+            display: block;
+            text-align: center;
+            content: " ";
+            position: absolute;
+            top: -10px;
+            width: 70px;
+            height: 1px;
+            background-color: #eee;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+.support_us {
+  text-align: center;
+
+  .likely {
+    margin-top: 30px;
+  }
+}
+
+
+
+.subscription {
+  @include row;
+  // margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+  p {
+    text-align: center;
+    margin: 0 auto 2em;
+  }
+
+  label {
+
+    @include media($mobile) {
+      @include row;
+    }
+
+    @include media($tablet) {
+      @include row;
+    }
+
+    @include media($desktop) {
+      @include span-columns(8);
+      @include shift(2);
+    }
+
+    input {
+      height: 40px;
+      line-height: 40px;
+
+      @include media($mobile) {
+        @include span-columns(8 of 8);
+        margin-bottom: 20px;
+      }
+
+      @include media($tablet) {
+        @include span-columns(4 of 8);
+      }
+
+      @include media($desktop) {
+        @include span-columns(5 of 8)
+      }
+    }
+
+    button {
+      height: 40px;
+      color: #fff;
+      // line-height: 40px;
+
+      @include media($mobile) {
+        @include span-columns(8 of 8);
+      }
+
+      @include media($tablet) {
+        @include span-columns(4 of 8);
+      }
+
+      @include media($desktop) {
+        @include span-columns(3 of 8)
+      }
+    }
+  }
+}
+
+// BOOK PAGE
+
+.about_book {
+  // @include row;
+
+  .book__figure {
+
+
+    @include media($mobile) {
+      @include row;
+      margin: rem(20px) auto;
+    }
+
+    @include media($tablet) {
+      @include span-columns(4 of 10);
+    }
+
+    @include media($desktop) {
+      @include span-columns(3 of 10);
+    }
+  }
+
+  .book__caption {
+    @include media($mobile) {
+      @include row;
+    }
+
+    @include media($tablet) {
+      @include span-columns(6 of 10);
+    }
+
+    @include media($desktop) {
+      @include span-columns(7 of 10);
+      @include omega;
+    }
+
+
+
+    article {
+      @include row;
+
+      h2 {
+      }
+
+      p {}
+    }
+
+    .b-info {
+      @include row;
+      margin: rem(30px) 0;
+
+      .thead {
+        @include row;
+
+        .td {
+          font-size: 90%;
+        }
+      }
+
+      .tbody {
+        @include row;
+
+        .td {
+          font-size: 146%;
+        }
+      }
+
+      .td {
+        @include span-columns(2 of 8);
+        text-align: center;
+      }
+    }
+
+    .actions {
+      margin-top: rem(45px);
+
+      .button {
+        @include media($mobile) {
+          margin: 0 0 10px;
+          @include row;
+          font-size: 80%;
+          padding: 0;
+          text-align: center;
+        }
+
+        @include media($tablet) {
+          margin: 0;
+          @include span-columns(5 of 10);
+          font-size: 80%;
+          padding: 0;
+          text-align: center;
+        }
+
+        @include media($desktop) {
+
+        }
+      }
+    }
+  }
+}
+
+
+.book-summary {
+  .summary {
+    padding: 0;
+
+    > li {
+      &+li {
+        margin-top: 0.5em;
+      }
+    }
+
+    // .chapter {
+    //   a:hover {
+    //     &:after {
+    //       @include inline-block;
+    //       content: "❐"
+    //     }
+    //   }
+    // }
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0 0 0 2em;
+
+    li {
+      line-height: 2;
+    }
+  }
+}
+
+
