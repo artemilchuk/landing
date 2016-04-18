@@ -1,25 +1,24 @@
-title: Lunapark
-
-author:
-  name: Oleg Mokhniuk
-  url: '//oleg.codes'
+title: Ed-Era
 
 
 
 menu:
-  - title: Welcome
+  - title: Курси
     url: '/#welcome'
 
-  - title: About
+  - title: Бібліотека
     url: '/#about'
 
-  - title: Features
+  - title: Блог
     url: '/#features'
 
-  - title: Partners
+  - title: Про проект
     url: '/#partners'
     
-  - title: Contacts
+  - title: Увійти
+    url: '/#contacts'
+
+  - title: Зареєструватися
     url: '/#contacts'
 
 
